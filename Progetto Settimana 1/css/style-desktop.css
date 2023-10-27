@@ -1,6 +1,4 @@
-/* Your styles here */
-/*Versione Mobile max-width: 450px*/
-@media (max-width: 500px){
+@media (min-width: 1366px) and (max-width: 1920px){
     *{
         box-sizing: border-box;
     }
@@ -12,11 +10,7 @@
         font-size: 1.2rem;
         margin: 0;
         font-family: 'Open Sans', sans-serif;
-        text-align: center;
         display: block;
-    }
-    .container{
-        margin: auto;
     }
     /*Header*/
     header{
@@ -24,7 +18,7 @@
     }
     header div img{
         width: 150px;
-        padding: 20px 0;
+        padding: 20px 20px;
     }
     h1, h2, h3{
         font-family: 'Montserrat', sans-serif;
@@ -36,8 +30,11 @@
     }
     #primary{
         background-image: url(../images/banner.jpg);
-        padding: 0.6em 6.5em 1.2em 6.5em;
+        padding: 17em 6.5em;
         background-size: cover;
+    }
+    #primary p{
+        padding: 0 300px;
     }
     h1, .title{
         color: #23a8cc;
@@ -47,24 +44,30 @@
         font-family: 'Montserrat', sans-serif;
         border: 0;
         color: white;
+        margin-top: 20px;
         padding: 0.9em;
         width: 10em;
         border-radius: 0.4em;
         text-transform: uppercase;
         font-weight: bold;
     }
+    #lavoro{
+        padding: 200px 400px;
+
+    }
     .title{
         font-weight: bold;
     }
-    #lavoro{
-        padding-top: 20px;
-    }
     #lavoro p{
+        text-align: left;
         padding: 0 100px;
         line-height: 1.8em;
     }
     #lavoro img{
+        float: left;
+        display: inline;
         border-radius: 50%;
+        padding-right: 50px;
     }
     div:nth-child(3){
         background-color: #e22d0e;
@@ -82,25 +85,32 @@
     }
     /*main article*/
     section{
-        margin:50px;
+        margin: 50px;
         border: 1px solid #dee1e3;
-    }
-    section img{
-        width: 100%;
-    }
-
+        display: inline-block;
+        text-align: center;
+        width: 450px;
+        height: 450px;
+    }    
     .section{
         color: #23a8cc;
         font-weight: bold;
     }
+            
     section p:last-child{
-        padding: 0 30px;
+        padding: 0 20px;
         line-height: 1.8em;
+    }
+    
+    section img{
+        width: 450px;
+        height: 300px;
     }
     /*Footer*/
     footer{
         background-color: #25a2c3;
         padding:20px 0 30px 0;
+        text-align: center;
     }
     footer h3{
         color: white;
@@ -111,6 +121,7 @@
     }
     footer p{
         margin: 5px;
+        
     }
     hr{
         width: 200px;
