@@ -83,15 +83,12 @@
     /*main article*/
     section{
         margin:50px;
-        border: 1px solid #dee1e3
+        border: 1px solid #dee1e3;
+        color: #23a8cc;
+        font-weight: bold;
     }
     section img{
         width: 100%;
-    }
-
-    .section{
-        color: #23a8cc;
-        font-weight: bold;
     }
     section p:last-child{
         padding: 0 30px;
