@@ -1,0 +1,126 @@
+/* Your styles here */
+/*Versione Mobile max-width: 450px*/
+@media (max-width: 500px){
+    *{
+        box-sizing: border-box;
+    }
+    html{
+        font-size: 0.8em;/**/
+        
+    }
+    body{
+        font-size: 1.2rem;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        display: block;
+    }
+    .container{
+        margin: auto;
+    }
+    /*Header*/
+    header{
+        background-color: black;
+    }
+    header div img{
+        width: 150px;
+        padding: 20px 0;
+    }
+    h1, h2, h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+    /*Main*/
+    main{
+        text-align: center;
+    }
+    #primary{
+        background-image: url(../images/banner.jpg);
+        padding: 0.6em 6.5em 1.2em 6.5em;
+        background-size: cover;
+    }
+    h1, .title{
+        color: #23a8cc;
+    }
+    button{
+        background-color: #f04c2f;
+        font-family: 'Montserrat', sans-serif;
+        border: 0;
+        color: white;
+        padding: 0.9em;
+        width: 10em;
+        border-radius: 0.4em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .title{
+        font-weight: bold;
+    }
+    #lavoro{
+        padding-top: 20px;
+    }
+    #lavoro p{
+        padding: 0 100px;
+        line-height: 1.8em;
+    }
+    #lavoro img{
+        border-radius: 50%;
+    }
+    div:nth-child(3){
+        background-color: #e22d0e;
+        padding: 20px;
+        color: white;
+    }
+    #citazione{
+        font-style: italic;
+    }
+    .name{
+        margin: 0;
+    }
+    .name:last-child{
+        font-size: 10px;
+    }
+    /*main article*/
+    section{
+        margin:50px;
+        border: 1px solid #dee1e3
+    }
+    section img{
+        width: 100%;
+    }
+
+    .section{
+        color: #23a8cc;
+        font-weight: bold;
+    }
+    section p:last-child{
+        padding: 0 30px;
+        line-height: 1.8em;
+    }
+    /*Footer*/
+    footer{
+        background-color: #25a2c3;
+        padding:20px 0 30px 0;
+    }
+    footer h3{
+        color: white;
+        font-size: 1.8em;
+    }
+    footer p, footer hr{
+        color:#c8e7f0;
+    }
+    footer p{
+        margin: 5px;
+    }
+    hr{
+        width: 200px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    span{
+        text-decoration: underline;
+    }
+    footer i{
+        color: white;
+    }
+}
